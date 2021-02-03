@@ -7,3 +7,8 @@ describe "#plus_two" do
 	end
 
 end
+
+def plus_two(num = 5)
+	sum = num
+	sum + 2
+end
